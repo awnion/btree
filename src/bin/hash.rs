@@ -3,6 +3,7 @@ use std::{
     hash::{self, BuildHasher, Hasher},
 };
 
+#[allow(dead_code)]
 #[inline]
 fn random() -> usize {
     let state = hash::RandomState::new();
